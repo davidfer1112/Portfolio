@@ -1,7 +1,7 @@
 {
   "name": "mypage",
   "private": true,
-  "homepage": "http://davidfer1112.github.io/Portfolio",
+  "homepage": "https://davidfer1112.github.io/Portfolio",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
