@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', 'sans-serif';
+    box-sizing: border-box;
+}
+
+.principalContainer{
+    background-color: #080808;
+    color: #fff;
+}
+
+.titues{
+    color: rebeccapurple;
+}

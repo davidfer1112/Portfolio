@@ -1,9 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import App from './app.jsx';
+import Prerender from './prerender.jsx';
+import AppEs from './appEs.jsx';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <h1>hola como te encuntras</h1>
-    <h2>no entiendo nada</h2>
+  <React.StrictMode >
+    <Prerender />
   </React.StrictMode>,
 )
