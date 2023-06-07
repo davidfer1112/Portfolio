@@ -7,18 +7,12 @@
 
 .containernav{
     padding: 10px 10%;
-    
-}
-
-.containernav .image-container {
-    float: left;
 }
 
 .containernav img{
-    height: 40px;
-    width: 60px;
-    margin-left: 10px;
+    width: 160px;
 }
+
 
 .containernav nav{
     display: flex;

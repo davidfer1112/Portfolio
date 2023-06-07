@@ -1,5 +1,4 @@
 import './header.css';
-import { Link } from 'react-router-dom';
 
 
 export default function Headercom (){
@@ -7,21 +6,12 @@ export default function Headercom (){
         <div className='headercontain'>
             <div className='containernav'>
                 <nav>
-
-                    <div className='image-container'>
-                        <Link to={'/Es'}>
-                                <img src="../../public/images/banderaColombia.jpg" className='imgidi'/>
-                        </Link>
-                        <Link to={'/'}>
-                                <img src="../../public/images/banderaUSA.jpg" className='imgidi'/>
-                        </Link>
-                    </div>
-                    
+                    <img src="../../public/images/logo_sin_fondo.png" alt="logo" />
                     <ul>
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Projects</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Acerca</a></li>
+                        <li><a href="#">Proyectos</a></li>
+                        <li><a href="#">Contacto</a></li>
                     </ul>
                 </nav>
             </div>
