@@ -1,0 +1,29 @@
+.about{
+    padding: 80px;
+    color: #ababba;
+}
+
+.fila{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.aboutCol1{
+    flex-basis: 35%;
+}
+
+.aboutCol1 img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.aboutCol2{
+    flex-basis: 60%;
+}
+
+.subTitulo{
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+}
