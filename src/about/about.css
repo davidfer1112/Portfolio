@@ -27,3 +27,53 @@
     font-weight: 600;
     color: #fff;
 }
+
+.tabTitulo{
+    display: flex;
+    margin: 20px 0 40px;
+}
+
+.tabLinks{
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+
+.tabLinks::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #692C70;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    transition: 0.5s;
+}
+
+.tabLinks.activeLink::after{
+    width: 50%;
+}
+
+.tabContenido ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+
+.tabContenido ul li span{
+    color: #6D4571;
+    font-size: 14px;
+}
+
+.tabContenido{
+    display: none;
+}
+
+
+.tabContenido.activeTab{
+    display: block;
+}
+
+
+
