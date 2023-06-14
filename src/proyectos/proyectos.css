@@ -1,0 +1,81 @@
+.proyectos{
+    padding: 80px;
+}
+
+.proyectosList{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(333px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.resulProyecto{
+    border: 10px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    max-width: 450px;
+    margin:0 auto;
+
+}
+
+.resulProyecto img{
+    width: 100%;
+    max-width: 450px;
+    display: block;
+    transition: transform 0.5s;
+    border-radius: 20px;
+}
+
+.resulProyecto .imgespe {
+    border: 1px solid #a987b4; 
+}
+
+.capa{
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), #6D4571);
+    border-radius: 20px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 14px;
+    transition: height 0.5s; 
+}
+
+.capa h3{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.capa a{
+    margin-top: 20px;
+    color: #6D4571;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;   
+}
+
+.resulProyecto:hover img{   
+    transform: scale(1.1);
+    border-radius: 20px;
+}
+
+.resulProyecto:hover .capa{
+    height: 100%;
+}

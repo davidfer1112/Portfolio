@@ -1,0 +1,44 @@
+.servicioscon{
+    padding: 80px;
+}
+
+.serviciosList{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(333px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.serviciosList div{
+    background-color: #262626;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-right: 10px;
+    border-radius: 10px;
+    transition: background 0.5s, transform 0.5s;
+}
+
+.serviciosList div i{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.serviciosList div h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.serviciosList div a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.serviciosList div:hover{
+    background-color: #692C70;
+    transform:  translateY(-10px);
+}

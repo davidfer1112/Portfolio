@@ -10,6 +10,7 @@ export default function Headercom (){
                     <ul>
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Acerca</a></li>
+                        <li><a href="#">Servicios</a></li>
                         <li><a href="#">Proyectos</a></li>
                         <li><a href="#">Contacto</a></li>
                     </ul>
