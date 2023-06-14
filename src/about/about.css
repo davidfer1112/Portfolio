@@ -75,5 +75,29 @@
     display: block;
 }
 
+@media only screen and (max-width: 600px){
+
+    .subTitulo{
+        font-size: 40px;
+    }
+
+    .aboutCol1 , .aboutCol2 {
+        flex-basis: 100%;
+    }
+    
+    .aboutCol1{
+        margin-bottom: 30px;
+    }
+
+    .aboutCol2{
+        font-size: 14px;
+    }
+
+    .tabLinks{
+        font-size:16px;
+        margin-right: 20px;
+    }
+}
+
 
 

@@ -1,0 +1,23 @@
+html{scroll-behavior: smooth; }
+       /* Estilos personalizados para la barra de desplazamiento */
+      /* Barra de desplazamiento */
+      ::-webkit-scrollbar {
+        width: 6px; /* Ancho de la barra de desplazamiento */
+        background-color: #000; /* Color de fondo de la barra de desplazamiento */
+      }
+      
+      /* Manija (thumb) de la barra de desplazamiento */
+      ::-webkit-scrollbar-thumb {
+        background-color: #692C70; /* Color de la manija de la barra de desplazamiento */
+        border-radius: 10px;
+      }
+      
+      /* Track (rastro) de la barra de desplazamiento */
+      ::-webkit-scrollbar-track {
+        background-color: #000; /* Color del rastro de la barra de desplazamiento */
+      }
+      
+      /* Cambiar el color del texto en la barra de desplazamiento */
+      ::-webkit-scrollbar-thumb:hover {
+        background-color: #FFFFFF; /* Color de la manija de la barra de desplazamiento al pasar el cursor sobre ella */
+      }

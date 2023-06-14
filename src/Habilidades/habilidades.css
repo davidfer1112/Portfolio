@@ -1,0 +1,40 @@
+.habilidadescon{
+    padding: 80px;
+}
+
+.habilidadesList{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(333px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.habilidadesList div{
+    background-color: #262626;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-right: 10px;
+    border-radius: 10px;
+    transition: background 0.5s, transform 0.5s;
+    text-align: center;
+}
+
+.habilidadesList div i{
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.habilidadesLists div h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.habilidadesList div:hover{
+    background-color: #692C70;
+    transform:  translateY(-10px);
+}
+

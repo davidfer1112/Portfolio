@@ -62,3 +62,55 @@ nav ul li a:hover::after{
 .textoHeader h1 span{
     color: #692C70;
 }
+
+nav .fa-solid{
+    display: none;
+}
+
+@media only screen and (max-width: 600px){
+
+    .textoHeader{
+        margin-top: 40%;
+        font-size: 20px;
+    }
+
+    .textoHeader h1{
+        font-size: 45px;
+    }
+
+    nav .fa-solid{
+        display: none;
+        display: block;
+        font-size: 25px;
+    }
+
+    nav ul{
+        background: #692C70;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+
+    nav ul li{
+        display: block;
+        margin: 25px;
+    }
+
+    nav ul .fa-solid{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+
+    nav .fa-solid{
+        cursor: pointer;
+    }
+
+
+}
